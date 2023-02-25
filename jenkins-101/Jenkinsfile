@@ -1,12 +1,15 @@
 pipeline {
-    
+    agent { 
+        node {
+            label 'docker-agent-python'
+            }
+      }
     stages {
         stage('Build') {
             steps {
                 echo "Building.."
                 sh '''
-                cd jenkins-101/myapp
-                pip install -r requirements.txt
+                echo " Đang build ..."
                 '''
             }
         }
@@ -14,9 +17,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                cd jenkins-101/myapp
-                python3 hello.py
-                python3 hello.py --name=Brad
+                echo "Đang test ...
                 '''
             }
         }
@@ -24,7 +25,7 @@ pipeline {
             steps {
                 echo 'Deliver....'
                 sh '''
-                echo "doing delivery stuff.."
+                echo "Đang delivery ..."
                 '''
             }
         }

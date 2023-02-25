@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'docker-pipeline'
+            label 'docker-pineline'
             }
       }
     stages {
@@ -9,7 +9,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                echo " Đang build ..."
+                echo "doing build stuff.."
                 '''
             }
         }
@@ -17,7 +17,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "Đang test ...
+                echo "doing test stuff.."
                 '''
             }
         }
@@ -25,7 +25,7 @@ pipeline {
             steps {
                 echo 'Deliver....'
                 sh '''
-                echo "Đang delivery ..."
+                echo "doing delivery stuff.."
                 '''
             }
         }

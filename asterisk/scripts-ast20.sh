@@ -22,7 +22,6 @@ function menu {
 function update {
 #Update system & reboot
 sudo apt update && sudo apt -y upgrade
-sudo reboot
 echo -en "\e[2;32m                 Now you need reboot to take effect (y/n):\e[0m"
    read value
    echo ""
@@ -107,7 +106,7 @@ sudo systemctl restart asterisk
 sudo systemctl enable asterisk
 
 #Test to see if it connect to Asterisk CLI
-sudo asterisk -rvv
+#sudo asterisk -rvv
 
 #open http ports and ports 5060,5061 in ufw firewall
 sudo ufw allow proto tcp from any to any port 5060,5061

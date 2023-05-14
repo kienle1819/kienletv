@@ -5,10 +5,41 @@
 #Author         : Mr.Kien Le    
 ################################################################################
 
+#update timzone
+ln -sf /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime
+
+CHOICE=-1
+function menu {
+   echo ""
+   echo -e "\e[2;32m    Option 1: Ensure all required packages are installed  \e[0m"
+   echo -e "\e[2;33m    Option 2: In1stall Asterisk                           \e[0m"
+   echo -e "\e[2;32m    Option 0: Exit without taking any actions             \e[0m"
+   echo "" 
+   echo -en "\e[2;33m  Selection: \e[0m"
+
+   read CHOICE
+}
+function update {
 #Update system & reboot
 sudo apt update && sudo apt -y upgrade
 sudo reboot
+echo -en "\e[2;32m                 Now you need reboot to take effect (y/n):\e[0m"
+   read value
+   echo ""
+   case $value in
+        y) reboot ;;
+        yes) reboot ;;
+        n) exit ;;
+        no) exit ;;
+        *) echo -e  "\e[2;320mINVALID OPTION\e[0m" ;;
+   esac
+   function reboot {
+   	reboot -h now
+   }
 
+}
+
+function install_asterisk {
 #Install Asterisk 20 LTS dependencies
 sudo apt -y install git curl wget libnewt-dev libssl-dev libncurses5-dev subversion  libsqlite3-dev build-essential libjansson-dev libxml2-dev  uuid-dev
 
@@ -65,15 +96,9 @@ sudo chown -R asterisk.asterisk /var/{lib,log,spool}/asterisk
 sudo chown -R asterisk.asterisk /usr/lib/asterisk
 
 #Set Asterisk default user to asterisk:
-sudo vim /etc/default/asterisk
-
-# AST_USER="asterisk"
-# AST_GROUP="asterisk"
-# sudo ldconfig
-
-sudo vim /etc/asterisk/asterisk.conf
-# runuser = asterisk ; The user to run as.
-# rungroup = asterisk ; The group to run as.
+sed -i 's|;runuser|runuser|' /etc/asterisk/asterisk.conf
+sed -i 's|;rungroup|rungroup|' /etc/asterisk/asterisk.conf
+echo -e "\e[32m asterisk Install OK!\e[m"
 
 #Restart asterisk service
 sudo systemctl restart asterisk
@@ -86,3 +111,27 @@ sudo asterisk -rvv
 
 #open http ports and ports 5060,5061 in ufw firewall
 sudo ufw allow proto tcp from any to any port 5060,5061
+}
+
+menu 
+
+while [  $CHOICE -ne "0" ]; do
+   case "$CHOICE" in
+      "0")
+         exit 0
+         CHOICE=0;;
+      "1")
+         update
+         CHOICE=0;;
+	  "2")
+	     install_asterisk
+         CHOICE=0;;
+	*)echo -e  "\e[2;330mYou have entered an invalid option...\e[0m"
+         echo ""
+         menu
+	esac
+done	
+echo -e "\e[2;32m                  INSTALL SCUCESSFULLY ASTERISK                            \e[0m"
+echo ""
+echo -e "\e[2;32m ------------------------- MISSION COMPLETE! -----------------------------\e[0m"
+echo ""

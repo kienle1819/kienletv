@@ -1,4 +1,4 @@
-# docker-monitoring-stack-gpnc
+# docker-monitoring-stack
 Grafana Prometheus Node-Exporter cAdvisor - Docker Monitoring Stack
 
 ## Boot

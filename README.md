@@ -1,7 +1,7 @@
 # New Video 
 https://www.youtube.com/watch?v=9vLMOZpTirY
 ---
-![1](https://github.com/kienle1819/kienletv/assets/18485689/200e9572-74de-4835-9158-bfa0023ef4b4)(https://www.youtube.com/watch?v=9vLMOZpTirY)
+![[1](https://github.com/kienle1819/kienletv/assets/18485689/200e9572-74de-4835-9158-bfa0023ef4b4)](https://www.youtube.com/watch?v=9vLMOZpTirY)
 
 
 # Contents

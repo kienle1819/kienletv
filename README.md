@@ -1,6 +1,6 @@
 # New Video 
 - https://www.youtube.com/watch?v=9vLMOZpTirY
-- ![]([https://www.youtube.com/watch?v=9vLMOZpTirY](https://i.ytimg.com/vi/9vLMOZpTirY/maxresdefault.jpg))
+- []([https://www.youtube.com/watch?v=9vLMOZpTirY](https://i.ytimg.com/vi/9vLMOZpTirY/maxresdefault.jpg))
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

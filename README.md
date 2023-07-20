@@ -1,6 +1,6 @@
 # New Video 
 - https://www.youtube.com/watch?v=9vLMOZpTirY
-
+<iframe width="951" height="578" src="https://www.youtube.com/embed/9vLMOZpTirY" title="Theo dõi hệ thống dùng docker monitoring stack GPNCA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)
 - [Linux](https://www.youtube.com/playlist?list=PLEpJ2JwS52iBukVgkFt8ijoWggD3sESmD)

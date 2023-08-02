@@ -10,11 +10,11 @@ Run these commands:
 
 `node app.js`
 
-<img width="618" alt="Screenshot 2023-02-24 at 6 22 30 PM" src="![image](https://github.com/kienle1819/kienletv/assets/18485689/e024d425-d820-4a87-b760-00245c19b421)
-">
+![Screen Shot 2023-08-02 at 21 28 05](https://github.com/kienle1819/kienletv/assets/18485689/4bb91e7d-2370-40ec-8dee-35111ab6c9e1)
+
 
 # Workflow of the project
-<img width="615" alt="Screenshot 2023-02-24 at 6 22 42 PM" src="![image](https://github.com/kienle1819/kienletv/assets/18485689/acbbd50b-3948-40c2-898a-d08d96e74424)
-">
+![image](https://github.com/kienle1819/kienletv/assets/18485689/791f42e6-e389-420d-82fb-cdc9be23ead9)
+
 
 

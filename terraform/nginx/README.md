@@ -1,4 +1,4 @@
-# terraform docker nginx quick-start
+# terraform docker nginx 
 
 This runs a nginx container with terraform
 

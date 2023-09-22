@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=sJRcAh_c9PM&t=48s
+https://www.youtube.com/watch?v=yeJ4Ge-m60o&t=80s
 ---
-![image](https://github.com/kienle1819/kienletv/assets/18485689/aa317133-3d90-4b88-955b-5973a17d89dd)
+![image](https://github.com/kienle1819/kienletv/assets/18485689/7b4c97f1-818d-47e9-b3fa-7f002fe9b8fb)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

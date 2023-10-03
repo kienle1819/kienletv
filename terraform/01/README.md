@@ -1,4 +1,4 @@
-# An Introduction to Terraform AWS
+# Terraform on AWS
 
 ```
 terraform init

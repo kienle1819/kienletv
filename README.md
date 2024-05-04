@@ -1,8 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=wl2DtMtEPRA
+https://www.youtube.com/watch?v=oNEifmAxNdI
 ---
-![image](https://github.com/kienle1819/kienletv/assets/18485689/d16c38c7-bd56-4a53-9a18-5c5a96cd9538)
-
+![HomeLab triển khai một SSL certificates FREE không tốn chi phí](https://github.com/kienle1819/kienletv/assets/18485689/6251d2e6-c501-45f6-abe9-0a30b7468732)
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)
 - [Linux](https://www.youtube.com/playlist?list=PLEpJ2JwS52iBukVgkFt8ijoWggD3sESmD)

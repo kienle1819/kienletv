@@ -1,0 +1,65 @@
+version: "3.6"
+
+# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
+services:
+  cloudflared:
+    container_name: cloudflared
+    # Restart on crashes and on reboots
+    restart: unless-stopped
+    image: cloudflare/cloudflared:latest
+    command: proxy-dns
+    environment:
+      - "TUNNEL_DNS_UPSTREAM=https://1.1.1.1/dns-query,https://1.0.0.1/dns-query,https://9.9.9.9/dns-query,https://149.112.112.9/dns-query"
+
+      # Listen on an unprivileged port
+      - "TUNNEL_DNS_PORT=5053"
+
+      # Listen on all interfaces
+      - "TUNNEL_DNS_ADDRESS=0.0.0.0"
+
+    # Attach cloudflared only to the private network
+    networks:
+      pihole_internal:
+        ipv4_address: 172.70.9.2
+    security_opt:
+      - no-new-privileges:true
+
+  pihole:
+    container_name: pihole
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp"
+      - "500:80/tcp"
+    #  - "443:443/tcp"
+    networks:
+      pihole_internal:
+        ipv4_address: 172.70.9.3
+      proxy:
+    environment:
+      TZ: 'Asia/Ho_Chi_Minh'
+      WEBPASSWORD: 'kienletv123'
+      PIHOLE_DNS_: '172.70.9.2#5053'
+      DNSMASQ_LISTENING: 'all'
+      VIRTUAL_HOST: kienletv-pi-hole.duckdns.org
+    # Volumes store your data between container upgrades
+    volumes:
+      - './pihole/:/etc/pihole/'
+      - './pihole/etc-dnsmasq.d/:/etc/dnsmasq.d/'
+    # Recommended but not required (DHCP needs NET_ADMIN)
+    #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
+    #cap_add:
+    #  - NET_ADMIN
+    restart: unless-stopped
+    depends_on:
+      - cloudflared
+
+networks:
+  pihole_internal:
+     ipam:
+       config:
+         - subnet: 172.70.9.0/29
+     name: pihole_internal
+  proxy:
+    external: true

@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=oNEifmAxNdI
+https://www.youtube.com/watch?v=oD4arOehQR0
 ---
-![HomeLab triển khai một SSL certificates FREE không tốn chi phí](https://github.com/kienle1819/kienletv/assets/18485689/6251d2e6-c501-45f6-abe9-0a30b7468732)
+![HomeLab triển khai Reverse Proxy server sử dụng Zoraxy](https://github.com/kienle1819/kienletv/assets/18485689/4b6741ac-31c2-49d8-999d-f886c9a9bc82)
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)
 - [Linux](https://www.youtube.com/playlist?list=PLEpJ2JwS52iBukVgkFt8ijoWggD3sESmD)

@@ -1,7 +1,8 @@
 # New Video 
-https://www.youtube.com/watch?v=oD4arOehQR0
+https://www.youtube.com/watch?v=Yju-yxO56Zk
 ---
-![HomeLab triển khai Reverse Proxy server sử dụng Zoraxy](https://github.com/kienle1819/kienletv/assets/18485689/4b6741ac-31c2-49d8-999d-f886c9a9bc82)
+![HomeLab dựng VPN server riêng truy cập từ xa bất cứ đâu sử dụng  Wireguard, Docker, Nginx Proxy Manager và DuckDNS](https://github.com/kienle1819/kienletv/assets/18485689/dd3290c1-41fb-4ffa-ab18-42be2c8a06d8)
+
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)
 - [Linux](https://www.youtube.com/playlist?list=PLEpJ2JwS52iBukVgkFt8ijoWggD3sESmD)

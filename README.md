@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=Yju-yxO56Zk
+https://www.youtube.com/watch?v=QAHoHakKmBE
 ---
-![HomeLab dựng VPN server riêng truy cập từ xa bất cứ đâu sử dụng  Wireguard, Docker, Nginx Proxy Manager và DuckDNS](https://github.com/kienle1819/kienletv/assets/18485689/dd3290c1-41fb-4ffa-ab18-42be2c8a06d8)
+![Kien Le TV Youtube Thumbnail (1)](https://github.com/kienle1819/kienletv/assets/18485689/9295c5d6-83f9-4fbd-8950-fe637c2c7cff)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

@@ -1,8 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=VdB9bPeEJjk
+https://www.youtube.com/watch?v=LC5j9xvmNtA
 ---
-![Kien Le TV Youtube Thumbnail (2)](https://github.com/kienle1819/kienletv/assets/18485689/ad5acc62-e78d-498d-9889-1d4fe213c2fc)
-
+![Kien Le TV Youtube Thumbnail (2)](https://github.com/kienle1819/kienletv/assets/18485689/5d902494-ce4f-41df-b9b6-553470d02016)
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)
 - [Linux](https://www.youtube.com/playlist?list=PLEpJ2JwS52iBukVgkFt8ijoWggD3sESmD)

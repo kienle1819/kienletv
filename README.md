@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=zSNg6jBwppc
+https://www.youtube.com/watch?v=Ih-lumIZU6Q&t=18s
 ---
-![Kien Le TV Youtube Thumbnail (1)](https://github.com/kienle1819/kienletv/assets/18485689/929de0dc-2c1c-433c-8c04-564fbb6527ca)
+![maxresdefault](https://github.com/user-attachments/assets/abb07dc4-2a6a-47db-967c-c66e652d8e5c)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

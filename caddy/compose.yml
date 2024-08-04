@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  caddy:
+    container_name: caddy
+    image: caddy:alpine
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - reverse_proxy
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
+
+networks:
+  reverse_proxy:
+    external: true

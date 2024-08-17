@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=Ih-lumIZU6Q&t=18s
+https://www.youtube.com/watch?v=LdSfKnNk0AY
 ---
-![maxresdefault](https://github.com/user-attachments/assets/abb07dc4-2a6a-47db-967c-c66e652d8e5c)
+![xay-dung-caddy-reverse-proxy](https://github.com/user-attachments/assets/c1f70946-8d7c-42ac-9d9f-e6565924cd2c)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

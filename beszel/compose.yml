@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  beszel:
+    image: 'henrygd/beszel'        # Specifies the Beszel Docker image.
+    container_name: 'beszel'       # Names the container for easier management.
+    restart: unless-stopped        # Ensures the container restarts automatically unless stopped.
+    volumes:
+      - ./beszel_data:/beszel_data # Persists data in a bind mount.
+    networks:
+      - reverse_proxy
+networks:
+  reverse_proxy:
+    external: true

@@ -1,0 +1,20 @@
+services:
+  nexterm:
+    container_name: Nexterm
+    image: germannewsmaker/nexterm:latest
+    healthcheck:
+      test: timeout 10s bash -c ':> /dev/tcp/127.0.0.1/6989' || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 90s
+    volumes:
+      - /volume1/docker/nexterm:/app/data:rw
+    restart: on-failure:5
+    networks:
+        - reverse_proxy
+networks:
+  reverse_proxy:
+    external: true
+volumes:
+  nexterm:

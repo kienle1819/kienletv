@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=LdSfKnNk0AY
+https://www.youtube.com/watch?v=QgNxHm-GcI8
 ---
-![xay-dung-caddy-reverse-proxy](https://github.com/user-attachments/assets/c1f70946-8d7c-42ac-9d9f-e6565924cd2c)
+![nexterm-quản-lí-server-ssh-vnc-rdp-miễn-phí-truy-cập-bất-cứ-dâu](https://github.com/user-attachments/assets/6f9ff1aa-826d-465d-a350-c7de7671286d)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

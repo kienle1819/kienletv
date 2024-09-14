@@ -1,0 +1,13 @@
+services:
+ dokemon:
+    volumes:
+    - ./dokemondata:/data
+    - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+    container_name: dokemon
+    image: productiveops/dokemon:latest
+    networks:
+        - reverse_proxy
+networks:
+  reverse_proxy:
+    external: true

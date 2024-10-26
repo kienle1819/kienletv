@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=yX-h4NcVSf0
+https://www.youtube.com/watch?v=nvc0nljENLw
 ---
-![ung-dung-quan-li-docker-container-de-dang-va-don-gian](https://github.com/user-attachments/assets/fe74c10f-02ff-43df-8250-c7443c0f340e)
+![mot-cong-cu-giam-sat-server-lightweight-hieu-qua-su-dung-docker](https://github.com/user-attachments/assets/0910916b-37a9-4b90-8090-e11fef1ff95f)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

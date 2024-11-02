@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=nvc0nljENLw
+https://www.youtube.com/watch?v=5y14rSVVobQ
 ---
-![mot-cong-cu-giam-sat-server-lightweight-hieu-qua-su-dung-docker](https://github.com/user-attachments/assets/0910916b-37a9-4b90-8090-e11fef1ff95f)
+![trien-khai-website-wordpress-voi-docker-va-caddy](https://github.com/user-attachments/assets/bde07870-43e5-46fd-a59d-d92b1f3737db)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

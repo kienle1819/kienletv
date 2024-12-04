@@ -1,0 +1,13 @@
+networks:
+  reverse_proxy:
+    external: true
+
+services:
+  memos:
+    image: 'ghcr.io/usememos/memos:latest'
+    container_name: 'memos'
+    restart: unless-stopped
+    volumes: 
+     - ./memos:/var/opt/memos
+    networks: 
+     - reverse_proxy

@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=5y14rSVVobQ
+https://www.youtube.com/watch?v=BnZBXKP91dw
 ---
-![trien-khai-website-wordpress-voi-docker-va-caddy](https://github.com/user-attachments/assets/bde07870-43e5-46fd-a59d-d92b1f3737db)
+![ghi-chu-moi-thu-voi-memos](https://github.com/user-attachments/assets/1c171a1e-e15a-4fb4-89c0-343377056406)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

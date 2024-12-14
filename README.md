@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=BnZBXKP91dw
+https://www.youtube.com/watch?v=H5eGD4kdvuo
 ---
-![ghi-chu-moi-thu-voi-memos](https://github.com/user-attachments/assets/1c171a1e-e15a-4fb4-89c0-343377056406)
+![nexterm-ung-dung-quản-lí-server-ssh-vnc-rdp-miễn-phí-truy-cập-bất-cứ-dâu](https://github.com/user-attachments/assets/715c4a02-622f-40b7-a9cb-0739c4b69f65)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=H5eGD4kdvuo
+https://www.youtube.com/watch?v=M9E7dZViX2s
 ---
-![nexterm-ung-dung-quản-lí-server-ssh-vnc-rdp-miễn-phí-truy-cập-bất-cứ-dâu](https://github.com/user-attachments/assets/715c4a02-622f-40b7-a9cb-0739c4b69f65)
+![web-check-mot-all-in-one-osint-tool-de-phan-tich-bat-ky-trang-web-nao-kien-le-tv](https://github.com/user-attachments/assets/c73bc958-abfe-4d4f-9b2f-2f8e8e90b1b5)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

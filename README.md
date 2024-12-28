@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=M9E7dZViX2s
+https://www.youtube.com/watch?v=NtKTfXVEhok
 ---
-![web-check-mot-all-in-one-osint-tool-de-phan-tich-bat-ky-trang-web-nao-kien-le-tv](https://github.com/user-attachments/assets/c73bc958-abfe-4d4f-9b2f-2f8e8e90b1b5)
+![rancher](https://github.com/user-attachments/assets/fde14b0f-e5bb-4376-ba6a-de2ba06951e2)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

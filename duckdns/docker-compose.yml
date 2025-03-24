@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  duckdns:
+    image: ghcr.io/linuxserver/duckdns
+    container_name: duckdns
+    environment:
+      PUID: 1000
+      PGID: 1000
+      TZ: Aisa/Ho_Chi_Minh
+      SUBDOMAINS: subdomain1,subdomain2,subdomain3 # subdomain example: nicecloud.duckdns.org
+      TOKEN: token
+      LOG_FILE: false
+    volumes:
+      - ./config:/config
+    restart: unless-stopped

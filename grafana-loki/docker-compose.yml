@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  loki:
+    image: grafana/loki:2.4.0
+    container_name: grafana-loki
+    command: -config.file=/etc/loki/loki-config.yml
+    volumes:
+      - ./loki:/etc/loki
+    ports:
+      - "3100:3100"
+    restart: unless-stopped
+
+  promtail:
+    image: grafana/promtail:2.4.0
+    container_name: grafana-promtail
+    command: -config.file=/etc/promtail/promtail-config.yml
+    volumes:
+      - /var/log:/var/log
+      - ./promtail:/etc/promtail
+#    ports:
+#      - "1514:1514" # this is only needed if you are going to send syslogs
+    restart: unless-stopped
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    user: "1000"
+    volumes:
+    - ./grafana:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    restart: unless-stopped

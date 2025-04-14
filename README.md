@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=NtKTfXVEhok
+https://www.youtube.com/watch?v=8BcIXgxbY7M
 ---
-![rancher](https://github.com/user-attachments/assets/fde14b0f-e5bb-4376-ba6a-de2ba06951e2)
+![1](https://github.com/user-attachments/assets/cd271d44-bd74-442a-835f-1def36fbcd2e)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

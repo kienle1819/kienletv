@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=8BcIXgxbY7M
+https://www.youtube.com/watch?v=PsXi-i1BKos
 ---
-![1](https://github.com/user-attachments/assets/cd271d44-bd74-442a-835f-1def36fbcd2e)
+![ssh-may-chu-ubuntu-idx-google-com-thong-qua-cloudflare-tunnel](https://github.com/user-attachments/assets/da09a6cd-5d44-4ec3-a1de-24731a33fe9e)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

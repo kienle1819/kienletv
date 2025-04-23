@@ -1,0 +1,39 @@
+services:
+  nginx_proxy_manager:
+    image: "jc21/nginx-proxy-manager:latest"
+    container_name: nginx_proxy_manager
+    restart: unless-stopped
+    networks:
+      - reverse_proxy
+    ports:
+      - "80:80" 
+      - "443:443"  
+      - "81:81"
+    volumes:
+      - ./data/npm_data:/data
+      - ./data/npm_letsencrypt:/etc/letsencrypt
+      - ./data/npm_logs:/var/log/nginx  
+    environment:
+      DB_SQLITE_FILE: "/data/database.sqlite"
+      INITIAL_ADMIN_EMAIL: "kienle1819@gmail.com"
+      INITIAL_ADMIN_PASSWORD: "Admin@123"
+	goaccess:
+    image: justsky/goaccess-for-nginxproxymanager:latest
+    container_name: goaccess
+    restart: unless-stopped
+    networks:
+      - reverse_proxy
+    environment:
+        - TZ=Asia/Ho_Chi_Minh
+        #- SKIP_ARCHIVED_LOGS=False #optional   
+        #- BASIC_AUTH=False #optional
+        #- BASIC_AUTH_USERNAME=user #optional
+        #- BASIC_AUTH_PASSWORD=pass #optional                
+    ports:
+        - '7880:7880'
+    volumes:
+        - ./data/npm_data/logs:/opt/log
+        - ./goaccess-config/goaccess-no-html.conf:/goaccess-config/goaccess-no-html.conf
+networks:
+  reverse_proxy:
+    external: true      

@@ -1,7 +1,7 @@
 # New Video 
 https://www.youtube.com/watch?v=Fz6yfHCM1yw
 ---
-![goaccess-cong-cu-de-dang-phan-tich-webserver-logs](https://github.com/user-attachments/assets/e025dae1-e549-4b7c-8d08-7bfa72d875a8)
+![goaccess-cong-cu-de-dang-phan-tich-webserver-logs](https://github.com/user-attachments/assets/81414a75-4d39-4722-963d-2f03984ae40d)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

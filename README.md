@@ -1,7 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=Fz6yfHCM1yw
+https://www.youtube.com/watch?v=7gTWTku8KfM
 ---
-![goaccess-cong-cu-de-dang-phan-tich-webserver-logs](https://github.com/user-attachments/assets/81414a75-4d39-4722-963d-2f03984ae40d)
+![quản-lý-máy-chủ-từ-xa-dùng-apache-guacamole](https://github.com/user-attachments/assets/72dced5b-f480-4e29-9a46-089b5e9652e2)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

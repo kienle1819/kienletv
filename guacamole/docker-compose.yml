@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  guacamole:
+    image: abesnier/guacamole   
+    container_name: guacamole
+    volumes:
+      - ./postgres:/config
+    ports:
+      - 8210:8080
+    restart: unless-stopped

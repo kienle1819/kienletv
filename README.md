@@ -1,7 +1,8 @@
 # New Video 
-https://www.youtube.com/watch?v=7gTWTku8KfM
+https://www.youtube.com/watch?v=jQa4WV2wgus
 ---
-![quản-lý-máy-chủ-từ-xa-dùng-apache-guacamole](https://github.com/user-attachments/assets/72dced5b-f480-4e29-9a46-089b5e9652e2)
+![zero-downtime-deployments-for-docker-compose](https://github.com/user-attachments/assets/40e806c4-a2ef-4687-84d1-981308d47ad4)
+
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

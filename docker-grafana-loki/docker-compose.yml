@@ -13,7 +13,7 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - ./config/grafana/datasources/ds.yaml:/etc/grafana/provisioning/datasources/datasources.yaml
+      - ./config/grafana/datasources:/etc/grafana/provisioning/datasources
     environment:
       - GF_AUTH_ANONYMOUS_ENABLED=true
       - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin

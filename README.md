@@ -1,8 +1,7 @@
 # New Video 
-https://www.youtube.com/watch?v=jQa4WV2wgus
+https://www.youtube.com/watch?v=WQfv2bslz6k
 ---
-![zero-downtime-deployments-for-docker-compose](https://github.com/user-attachments/assets/40e806c4-a2ef-4687-84d1-981308d47ad4)
-
+![luu-tru-logs-dung-grafana-loki](https://github.com/user-attachments/assets/3e645c65-920a-4bb9-83d3-a5c821d1ec25)
 
 # Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

@@ -1,57 +1,78 @@
+x-logging:
+  &default-logging
+  driver: "json-file"
+  options:
+    max-size: "1m"
+    max-file: "1"
+    tag: "{{.Name}}"
+
 services:
-  grafana:
-    image: grafana/grafana:7.4.2
-    container_name: 'grafana'
-    restart: unless-stopped
-    volumes:
-      - ./data/grafana/data:/var/lib/grafana
-      - ./configs/grafana/datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
-    networks:
-      - public
+  nginx-app:
+    container_name: nginx-app
+    image: nginx
+    labels:
+      logging: "promtail"
+      logging_jobname: "containerlogs"
     ports:
-      - "3000:3000"
-    depends_on:
-      - loki
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "1m"
+      - 8080:80
+    networks:
+      - app
+    logging: *default-logging
+
+  grafana:
+    image: grafana/grafana:11.0.0
+    container_name: grafana
+    ports:
+      - 3000:3000
+    volumes:
+      - ./config/grafana/datasources/grafana.yaml:/etc/grafana/provisioning/datasources/datasources.yaml
+      - ./config/grafana/plugins/app.yaml:/etc/grafana/provisioning/plugins/app.yaml
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+      - GF_AUTH_DISABLE_LOGIN_FORM=true
+      - GF_FEATURE_TOGGLES_ENABLE=accessControlOnCall lokiLogsDataplane
+      - GF_INSTALL_PLUGINS=https://storage.googleapis.com/integration-artifacts/grafana-lokiexplore-app/grafana-lokiexplore-app-latest.zip;grafana-lokiexplore-app
+    networks:
+      - app
+    logging: *default-logging
 
   loki:
-    image: grafana/loki:2.1.0
+    image: grafana/loki:3.0.0
     container_name: loki
-    command: -config.file=/mnt/loki-local-config.yaml
-    user: root
-    restart: unless-stopped
-    volumes:
-      - ./data/loki/data:/tmp/loki
-      - ./configs/loki/loki.yml:/mnt/loki-local-config.yaml
     ports:
-      - "3100:3100"
+      - 3100:3100
+    command: -config.file=/etc/loki/loki.yaml
+    volumes:
+      - ./config/loki/loki.yaml:/etc/loki/loki.yaml
     networks:
-      - public
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "1m"
+      - app
+    logging: *default-logging
 
-  fluent-bit:
-    image: grafana/fluent-bit-plugin-loki:latest
-    container_name: fluent-bit
-    environment:
-      - LOKI_URL=http://loki:3100/loki/api/v1/push
+  promtail:
+    image:  grafana/promtail:3.0.0
+    container_name: promtail
     volumes:
-      - ./configs/fluentbit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
-    ports:
-      - "24224:24224"
-      - "24224/udp"
+      - ./config/promtail/promtail.yaml:/etc/promtail/docker-config.yaml
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: -config.file=/etc/promtail/docker-config.yaml
+    depends_on:
+      - loki
     networks:
-      - public
-    logging:
-       driver: "json-file"
-       options:
-         max-size: "1m"
+      - app
+    logging: *default-logging
+
+  log-generator:
+    image: us-docker.pkg.dev/grafanalabs-global/docker-explore-logs-prod/fake-log-generator:latest
+    container_name: log-generator
+    command: -url http://loki:3100/loki/api/v1/push
+    depends_on:
+      - loki
+    networks:
+      - app
+    logging: *default-logging
 
 networks:
-  public:
-    name: public
+  app:
+    name: app

@@ -9,7 +9,7 @@ services:
     networks:
       - public
     ports:
-      - "192.168.1.6:3000:3000"
+      - "192.168.0.29:3000:3000"
     depends_on:
       - loki
     logging:
@@ -27,7 +27,7 @@ services:
       - ./data/loki/data:/tmp/loki
       - ./configs/loki/loki.yml:/mnt/loki-local-config.yaml
     ports:
-      - "192.168.1.6:3100:3100"
+      - "192.168.0.29:3100:3100"
     networks:
       - public
     logging:
@@ -43,8 +43,8 @@ services:
     volumes:
       - ./configs/fluentbit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
     ports:
-      - "192.168.1.6:24224:24224"
-      - "192.168.1.6:24224:24224/udp"
+      - "192.168.0.29:24224:24224"
+      - "192.168.0.29:24224:24224/udp"
     networks:
       - public
     logging:

@@ -1,6 +1,6 @@
 services:
   grafana:
-    image: grafana/grafana:11.5.1  #7.4.2
+    image: grafana/grafana:7.4.2
     container_name: 'grafana'
     restart: unless-stopped
     volumes:
@@ -9,7 +9,7 @@ services:
     networks:
       - public
     ports:
-      - "192.168.0.29:3000:3000"
+      - "3000:3000"
     depends_on:
       - loki
     logging:
@@ -27,7 +27,7 @@ services:
       - ./data/loki/data:/tmp/loki
       - ./configs/loki/loki.yml:/mnt/loki-local-config.yaml
     ports:
-      - "192.168.0.29:3100:3100"
+      - "3100:3100"
     networks:
       - public
     logging:
@@ -43,8 +43,8 @@ services:
     volumes:
       - ./configs/fluentbit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
     ports:
-      - "192.168.0.29:24224:24224"
-      - "192.168.0.29:24224:24224/udp"
+      - "24224:24224"
+      - "24224/udp"
     networks:
       - public
     logging:

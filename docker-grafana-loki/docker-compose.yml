@@ -1,0 +1,57 @@
+services:
+  grafana:
+    image: grafana/grafana:11.5.1  #7.4.2
+    container_name: 'grafana'
+    restart: unless-stopped
+    volumes:
+      - ./data/grafana/data:/var/lib/grafana
+      - ./configs/grafana/datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
+    networks:
+      - public
+    ports:
+      - "192.168.1.6:3000:3000"
+    depends_on:
+      - loki
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+
+  loki:
+    image: grafana/loki:2.1.0
+    container_name: loki
+    command: -config.file=/mnt/loki-local-config.yaml
+    user: root
+    restart: unless-stopped
+    volumes:
+      - ./data/loki/data:/tmp/loki
+      - ./configs/loki/loki.yml:/mnt/loki-local-config.yaml
+    ports:
+      - "192.168.1.6:3100:3100"
+    networks:
+      - public
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"
+
+  fluent-bit:
+    image: grafana/fluent-bit-plugin-loki:latest
+    container_name: fluent-bit
+    environment:
+      - LOKI_URL=http://loki:3100/loki/api/v1/push
+    volumes:
+      - ./configs/fluentbit/fluent-bit.conf:/fluent-bit/etc/fluent-bit.conf
+    ports:
+      - "192.168.1.6:24224:24224"
+      - "192.168.1.6:24224:24224/udp"
+    networks:
+      - public
+    logging:
+       driver: "json-file"
+       options:
+         max-size: "1m"
+
+networks:
+  public:
+    name: public

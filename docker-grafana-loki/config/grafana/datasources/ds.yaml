@@ -8,6 +8,3 @@ datasources:
     version: 1
     editable: false
     isDefault: true
-  - name: TestData
-    isDefault: false
-    type: testdata

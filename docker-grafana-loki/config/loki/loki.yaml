@@ -1,39 +1,20 @@
+---
 auth_enabled: false
 
 server:
   http_listen_port: 3100
-  grpc_listen_port: 9096
 
 common:
   instance_addr: 127.0.0.1
-  path_prefix: /tmp/loki
+  path_prefix: /loki
   storage:
     filesystem:
-      chunks_directory: /tmp/loki/chunks
-      rules_directory: /tmp/loki/rules
+      chunks_directory: /loki/chunks
+      rules_directory: /loki/rules
   replication_factor: 1
   ring:
     kvstore:
       store: inmemory
-
-frontend:
-  max_outstanding_per_tenant: 2048
-
-pattern_ingester:
-  enabled: true
-
-limits_config:
-  max_global_streams_per_user: 0
-  ingestion_rate_mb: 50000
-  ingestion_burst_size_mb: 50000
-  volume_enabled: true
-
-query_range:
-  results_cache:
-    cache:
-      embedded_cache:
-        enabled: true
-        max_size_mb: 100
 
 schema_config:
   configs:
@@ -45,8 +26,14 @@ schema_config:
         prefix: index_
         period: 24h
 
+limits_config:
+  # NOTE: Data Retention is set to 7 days.
+  #       This is the default value and can be changed
+  retention_period: 168h
+  ingestion_rate_mb: 4
+  ingestion_burst_size_mb: 6
+  max_streams_per_user: 10000
+  max_line_size: 256000
+
 ruler:
   alertmanager_url: http://localhost:9093
-
-analytics:
-  reporting_enabled: false

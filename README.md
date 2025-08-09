@@ -1,7 +1,7 @@
 ## New Video 
-https://www.youtube.com/watch?v=WQfv2bslz6k
+https://www.youtube.com/watch?v=Nw1dQ8Qj-aw
 ---
-![luu-tru-logs-dung-grafana-loki](https://github.com/user-attachments/assets/3e645c65-920a-4bb9-83d3-a5c821d1ec25)
+<img width="1280" height="720" alt="monitoring-platform-infrastructure" src="https://github.com/user-attachments/assets/273fcc81-02f1-4645-98d4-f27262144f0c" />
 
 ## Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

@@ -1,7 +1,7 @@
 ## New Video 
-https://www.youtube.com/watch?v=Nw1dQ8Qj-aw
+https://www.youtube.com/watch?v=9BP9WB2SKhE
 ---
-<img width="1280" height="720" alt="monitoring-platform-infrastructure" src="https://github.com/user-attachments/assets/273fcc81-02f1-4645-98d4-f27262144f0c" />
+![tiet-kiem-x-thoi-gian-quan-li-docker-va-k8s-bang-portainer](https://github.com/user-attachments/assets/4aaf1697-d9f6-439c-a9e9-a2458933d684)
 
 ## Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

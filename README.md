@@ -1,7 +1,7 @@
 ## New Video 
-https://www.youtube.com/watch?v=9BP9WB2SKhE
+https://www.youtube.com/watch?v=Rysi_P9VoJA
 ---
-![tiet-kiem-x-thoi-gian-quan-li-docker-va-k8s-bang-portainer](https://github.com/user-attachments/assets/4aaf1697-d9f6-439c-a9e9-a2458933d684)
+![nhan-ngay-vps-mien-phi-khong-gioi-han-truy-cap-ssh-24-7](https://github.com/user-attachments/assets/18dc702c-7f30-4bdb-b3b1-a99ba0dbca29)
 
 ## Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

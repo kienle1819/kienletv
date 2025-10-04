@@ -1,7 +1,7 @@
 ## New Video 
-https://www.youtube.com/watch?v=Rysi_P9VoJA
+https://www.youtube.com/watch?v=QkL7hJo5FEc
 ---
-![nhan-ngay-vps-mien-phi-khong-gioi-han-truy-cap-ssh-24-7](https://github.com/user-attachments/assets/18dc702c-7f30-4bdb-b3b1-a99ba0dbca29)
+<img width="1280" height="720" alt="ssh-qua-trinh-duyet-day-la-cong-cu-ban-can-biet" src="https://github.com/user-attachments/assets/b0a17d73-e84c-4ed3-9565-7e342272d312" />
 
 ## Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

@@ -1,7 +1,7 @@
 ## New Video 
-https://www.youtube.com/watch?v=QkL7hJo5FEc
+http://youtube.com/watch?v=mHNxqDjpG-M
 ---
-<img width="1280" height="720" alt="ssh-qua-trinh-duyet-day-la-cong-cu-ban-can-biet" src="https://github.com/user-attachments/assets/b0a17d73-e84c-4ed3-9565-7e342272d312" />
+![1](https://github.com/user-attachments/assets/900ffb32-8a74-458f-9753-3060f9125842)
 
 ## Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

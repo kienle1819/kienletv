@@ -1,7 +1,7 @@
 ## New Video 
-http://youtube.com/watch?v=mHNxqDjpG-M
+https://www.youtube.com/watch?v=WQOnfrK58Ec
 ---
-![1](https://github.com/user-attachments/assets/900ffb32-8a74-458f-9753-3060f9125842)
+<img width="1280" height="720" alt="tmate-cach-chia-se-terminal-linux-an-toan-qua-ssh" src="https://github.com/user-attachments/assets/b4e9d653-4538-4eeb-b8e5-1e413b7f1f95" />
 
 ## Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

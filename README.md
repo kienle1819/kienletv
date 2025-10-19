@@ -1,7 +1,7 @@
 ## New Video 
-https://www.youtube.com/watch?v=WQOnfrK58Ec
+https://www.youtube.com/watch?v=sd4awAP1gNk&t=28s
 ---
-<img width="1280" height="720" alt="tmate-cach-chia-se-terminal-linux-an-toan-qua-ssh" src="https://github.com/user-attachments/assets/b4e9d653-4538-4eeb-b8e5-1e413b7f1f95" />
+<img width="1280" height="720" alt="crowdsec-tuong-lua-thong-minh-thay-the-fail2ban" src="https://github.com/user-attachments/assets/7b87deb3-6a65-4403-bcac-c32852d2737b" />
 
 ## Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

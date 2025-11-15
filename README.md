@@ -1,7 +1,7 @@
 ## New Video 
-https://www.youtube.com/watch?v=IAkvL0oLUwE
+https://www.youtube.com/watch?v=e4F7Z3pZq3c
 ---
-<img width="1280" height="720" alt="cai-va-quan-ly-kubernetes-sieu-de-voi-portainer" src="https://github.com/user-attachments/assets/597cf53c-558e-4149-a4dd-5d4030996ca7" />
+<img width="1280" height="720" alt="Trải nghiệm thật về GreenCloudVPS" src="https://github.com/user-attachments/assets/7d2dbb8a-509c-4a57-b7d3-148273a90aab" />
 
 ## Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)

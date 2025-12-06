@@ -1,7 +1,7 @@
 ## New Video 
-https://www.youtube.com/watch?v=e4F7Z3pZq3c
+https://youtu.be/mMB7KwpLNzQ
 ---
-<img width="1280" height="720" alt="Trải nghiệm thật về GreenCloudVPS" src="https://github.com/user-attachments/assets/7d2dbb8a-509c-4a57-b7d3-148273a90aab" />
+<img width="1280" height="720" alt="cong-cu-quan-li-docker-hien-dai" src="https://github.com/user-attachments/assets/49a5989b-5734-472d-83ed-a62f3d0a5cbb" />
 
 ## Contents
 - [Devops](https://www.youtube.com/playlist?list=PLEpJ2JwS52iA-WNnvcWXiVqGbIxkt0pPO)
